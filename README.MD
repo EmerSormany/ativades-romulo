@@ -1,0 +1,1 @@
+Este repositório é a resolução de atividades da disciplina de Programação Estruturada.
