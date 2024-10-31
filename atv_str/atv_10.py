@@ -4,7 +4,7 @@
 
 nome = input("Digite um texto: ")
 
-nome_quebrado = nome.split(" ")
+nome_quebrado = nome.split()
 
 inicais = ''
 
@@ -12,3 +12,4 @@ for palavra in nome_quebrado:
     inicais = inicais + palavra[0].upper() + '.'
 
 print(inicais)
+
