@@ -11,10 +11,10 @@ dia = int(input("Digite o dia: "))
 mes = int(input("Digite o mes: "))
 ano = int(input("Digite o ano: "))
 
-dia_msec = dia * 24 * 60 * 60 * 1000
-mes_msec = mes * 30 * 24 * 60 * 60 * 1000
-ano_msec = (ano - 1970) * 12 * 30 * 24 * 60 * 60 * 1000
+dia_msec = dia * 24 * 60 * 60
+mes_msec = mes * 30 * 24 * 60 * 60
+ano_msec = (ano - 1970) * 12 * 30 * 24 * 60 * 60
 
 print(dia_msec + mes_msec + ano_msec)
 
-# Exercício incompleto
+# exercício incompleto
