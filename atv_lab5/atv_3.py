@@ -13,5 +13,11 @@ match operacao:
         print("Operação escolhida foi subtração. Resultado:", num_1 - num_2)
     case '*':
         print("Operação escolhida foi multiplicação. Resultado:", num_1 * num_2)
-    case '+':
-        print("Operação escolhida foi divisão. Resultado:", num_1 / num_2)
+    case '/':
+        if num_2 == 0:
+            print("Não é possível realizar divisão por 0.")
+        else:
+            print("Operação escolhida foi divisão. Resultado:", num_1 / num_2)
+    case _:
+        print("DIgite uma opção de operação válida.")
+    
