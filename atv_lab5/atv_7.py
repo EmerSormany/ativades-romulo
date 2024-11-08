@@ -3,13 +3,15 @@
 
 nota = int(input("Digite uma nota de 0 a 100: "))
 
-if nota < 60:
+if nota in list(range(60)):
     print("Conceito da nota F")
-elif nota >= 60 and nota < 70:
+elif nota in list(range(60, 70)):
     print("Conceito da nota D")
-elif nota >= 70 and nota < 80:
+elif nota in list(range(70, 80)):
     print("Conceito da nota C")
-elif nota >= 80 and nota < 90:
+elif nota in list(range(80, 90)):
     print("Conceito da nota B")
-else:
+elif nota in list(range(90, 101)):
     print("Conceito da nota A")
+else:
+    print("Nota inválida.")
